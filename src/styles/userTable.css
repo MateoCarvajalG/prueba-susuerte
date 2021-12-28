@@ -1,0 +1,34 @@
+.content-table {
+  display: flex;
+  justify-content: center;
+}
+.table {
+  width: 80vw;
+}
+.text-start {
+  text-align: center;
+}
+.v-data-table-header {
+  background-color: #b9c9fe;
+}
+tbody {
+  background-color: #e8edff;
+}
+.logo-susuerte{
+    width: 20vw;
+}
+h1 {
+  text-align: center;
+  color: #6c2eb9;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: Arial;
+  text-transform: uppercase;
+  display: inline;
+  display: flex;
+  align-self: flex-end;
+}
+.header-t{
+    display: flex;
+    justify-content: center;
+}

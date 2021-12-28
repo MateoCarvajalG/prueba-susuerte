@@ -1,12 +1,21 @@
 <template>
-  <v-data-table
-    :headers="headers"
-    :items="Users"
-    :items-per-page="5"
-    class="elevation-1"
-  ></v-data-table>
+  <div>
+    <div class="header-t">
+      <img v-bind:src="require('../assets/logo_pie_susuerte.png')" class="logo-susuerte" alt="">
+      <h1>Usuarios</h1>
+    </div>
+    <div class="content-table">
+      <v-data-table
+        :headers="headers"
+        :items="Users"
+        :items-per-page="5"
+        class="elevation-1 table"
+      ></v-data-table>
+    </div>
+  </div>
 </template>
 <script>
+import "../styles/userTable.css";
 import axios from "axios";
 export default {
   name: "userTable",
